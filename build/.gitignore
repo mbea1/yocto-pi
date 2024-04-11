@@ -1,0 +1,7 @@
+*.lock
+*.sock
+*.log
+tmp/
+downloads/
+cache/
+sstate-cache/
