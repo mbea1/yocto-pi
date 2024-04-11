@@ -1,2 +1,3 @@
 # yocto-pi
-Yocto layers for a RaspberryPi image
+
+Yocto layers for a RaspberryPi image.

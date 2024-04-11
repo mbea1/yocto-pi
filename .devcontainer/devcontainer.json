@@ -1,0 +1,19 @@
+{
+  "name": "yocto-pi",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "eamodio.gitlens",
+        "esbenp.prettier-vscode",
+        "mhutchie.git-graph",
+        "ms-azuretools.vscode-docker",
+        "yocto-project.yocto-bitbake",
+        "mads-hartmann.bash-ide-vscode"
+      ]
+    }
+  },
+  "containerUser": "dev"
+}
