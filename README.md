@@ -25,4 +25,4 @@ bitbake core-image-base
 
 Once the build is done, the image should be available under `build/tmp/deploy/images/raspberrypi4-64/core-image-base-raspberrypi4-64.rootfs.wic.bz2` (from the root of the project).
 
-> Note: The custom layer for compiling bootgen is under `sources/meta-bootgen`. Unfortunately, I was not able to compile it for raspberrypi4-64. If you would like to test it yourself, you can uncomment the line `IMAGE_INSTALL += "bootgen"` in the [`local.conf`](build/conf/local.conf) file (line 291), and re-run `bitbake core-image-base`.
+> Note: The custom layer for compiling bootgen is under `sources/meta-bootgen`. If you **do not need it** in the final image, you can comment the line `IMAGE_INSTALL += "bootgen"` in the [`local.conf`](build/conf/local.conf) file (line 291), and re-run `bitbake core-image-base`.
